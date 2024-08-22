@@ -5,8 +5,6 @@ use Illuminate\support\Facades\Route;
 use App\Http\Controllers\PostController;
 
 
-
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
