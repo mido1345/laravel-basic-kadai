@@ -13,8 +13,6 @@
              <th>ID</th>
              <th>タイトル</th>
              <th>本文</th>
-             <th>作成日時</th>
-             <th>更新日時</th>
          </tr>
          @foreach($posts as $post)
              <tr>
