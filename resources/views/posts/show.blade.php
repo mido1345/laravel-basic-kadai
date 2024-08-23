@@ -9,20 +9,24 @@
     <table>
         <tr>
             <th>ID</th>
-            <th>タイトル</th>
-            <th>本文</th>
-            <th>作成日時</th>
-            <th>更新日時</th>
-        </tr>
-        @foreach($posts as $post)
-        <tr>
             <td>{{ $post->id }}</td>
+        </tr>
+        <tr>
+            <th>タイトル</th>
             <td>{{ $post->title }}</td>
+        </tr>
+        <tr>
+            <th>本文</th>
             <td>{{ $post->content }}</td>
+        </tr>
+        <tr>
+            <th>作成日時</th>
             <td>{{ $post->created_at }}</td>
+        </tr>
+        <tr>
+            <th>更新日時</th>
             <td>{{ $post->updated_at }}</td>
         </tr>
-        @endforeach
     </table>
 </body>
 </html>
